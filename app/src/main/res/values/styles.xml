@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TitleStyle">
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">@font/fira_mono_bold</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">@font/fira_mono</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="NormalTextStyle" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="color">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="HighLightTextStyle" parent="@style/TextAppearance.AppCompat.Headline">
+        <item name="color">?attr/colorOnSecondary</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="cardViewStyle">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="imageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="switchStyle" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:text">a/b</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+</resources>
